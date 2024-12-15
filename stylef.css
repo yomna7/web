@@ -1,0 +1,129 @@
+*{
+margin: 0;
+padding: 0;
+font-family: Arial, Helvetica, sans-serif;
+font-family: 'Times New Roman', Times, serif;
+-webkit-user-select: none;
+user-select: none;
+scroll-behavior: smooth;
+}
+nav{
+    display:flex;
+    position: fixed;
+    align-items: center;
+    justify-content: space-around;
+    height: 70px;
+background-color: rgb(246, 243, 240);
+-webkit-backdrop-filter:blur(30px);
+backdrop-filter: blur(30px);
+width: 100%;
+z-index: 1;
+
+
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+}
+i{font-size:30px;
+    color: #1f733a;
+
+}
+.logo h3{text-decoration:none ;
+}
+.nav a{
+    text-decoration: none;
+    color: #1f733a;
+    font-size: 20px;
+    font-weight: 700;
+    margin: 20px;
+    padding: 13px;
+    transition: all 0.1s ease;
+}
+.nav a:hover{
+    border: none;
+    background-color: #108134;
+    color: aliceblue;
+    border-radius: 50px;
+}
+.homepage{
+    background: url(images/1.jpg) ;
+    background-size:1200px;
+    background-repeat: no-repeat;
+    background-position-x:320px;
+    background-position-y: -15px;
+    height: 1150px;
+    display: flex;
+    align-items : center;
+
+}
+.content{
+    margin-left: 100px;
+    
+}
+.content h2{
+    font-size: 40px;
+    color: rgb(6, 55, 95);
+}
+.content h1{
+    color: #f82424;
+font-size: 100px;
+margin: 30px 0;
+text-shadow: 0 0 100px #f82424;
+}
+.content button{
+    
+    margin-top: 100px;
+    height:70px;
+    width: 190px;
+    border: none;
+background-color: #f82424;
+color: aliceblue;
+border-radius: 40px;
+font-size: 20px;
+font-weight: 1000;
+cursor: pointer;
+transition: all 0.3s ease;
+}
+.content button:hover{
+    box-shadow: 0 10px 50px #f8242477;
+}
+.section2{
+    background-color: aliceblue;
+    box-shadow: 0 -150px 80px 80px  rgb(246, 243, 240);
+display:flexbox;
+margin-bottom: 50px;
+
+}
+.header1{
+    width: 80% ;
+    margin-left: 10%;
+margin-top: 0%;
+display: flex;
+justify-content: space-between;
+height: 70px;
+align-items: center;
+padding-top: 70px;
+
+
+}
+.header1 button{
+height: 70px;
+width: 180px; 
+background-color: #ebf83a;
+color: aliceblue;
+font-size: 20%;
+font-weight: 700;
+border: none;
+border-radius: 35px;
+cursor: pointer;
+transition: all 0.3s ease;
+}
+.Categories{ 
+    display: flex;
+    width:100%;
+    margin-left: 10%;
+    justify-content: space-between;
+    margin-top: 5px;
+}
